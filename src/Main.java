@@ -7,6 +7,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
+        /* ESSA MAIN AINDA ESTA EM FASE DE CRIAÇÃO, ESTOU TESTANDO PRIMEIRO A CONTA CORRENTE,
+        EM SEGUIDA IREI DAR INICIO A CRIAÇÃO DA PARTE DA CONTA POUPANÇA
+         */
+
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("============================");
