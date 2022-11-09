@@ -2,8 +2,7 @@ package Entities;
 
 public abstract class Conta implements iConta {
 
-
-    private static final int AGENCIA_PADRAO = 1;
+    private static final int AGENCIA_PADRAO = 0001;
     private static int SEQUENCIAL = 1;
     protected int agencia;
     protected int numero;
@@ -48,7 +47,5 @@ public abstract class Conta implements iConta {
         System.out.println(String.format("Agencia: %d", this.agencia));
         System.out.println(String.format("Numero: %d", this.numero));
         System.out.println(String.format("Saldo: %.2f", this.saldo));
-
-
     }
 }
